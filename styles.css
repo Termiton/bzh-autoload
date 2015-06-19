@@ -1,0 +1,106 @@
+body {
+	position: relative;
+	background-color: #edfff2;
+	width: 840px;
+	margin: auto;
+}
+
+header {
+	background: url(images/header.png) no-repeat;
+	width: 840px;
+	height: 215px;
+	position: relative;
+	top: 10px;
+	left: 0;
+	border: 2px solid black;
+}
+
+#titre {
+	position: relative;
+	text-align: center;
+	top: 126px;
+	color: white;
+	line-height: 30px;
+}
+
+#menu {
+	position: relative;
+	color: white;
+}
+
+
+#contenu {
+	background: url(images/page.png);
+	position: relative;
+	width: 840px;
+	height: 360px;
+	top: 0px;
+	left: 0;
+	border: 2px solid black;
+}
+
+
+#predayPhoto {
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 215px;
+	background-color: gray;
+	left: 271px;
+	top: 72px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 20;
+}
+
+#dayPhoto {
+	position: absolute;
+	width: 300px;
+	height: 215px;
+	background: url(images/dayPhoto.png);
+	left: 271px;
+	top: 72px;
+	z-index: 10;
+
+}
+
+footer {
+	background: url(images/footer.png);
+	position: relative;
+	top: -5px;
+	width: 840px;
+	height: 301px;
+	left: 0;
+	border: 2px solid black;
+}
+
+#menu {
+	position: relative;
+	top: -6px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#menu td {
+	width: 300px;
+
+}
+
+#sign {
+	position: relative;
+	top: 280px;
+	text-align: right;
+}
+
+#sign a {
+	cursor: pointer;
+	text-decoration: none;
+	color: gray;
+}
+/*
+.hidden a{
+	display: none;
+}
